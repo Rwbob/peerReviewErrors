@@ -44,7 +44,7 @@ def checkCave(chosenCave):
 playAgain = 'yes'
 while playAgain == 'yes' or playAgain == 'y': # 7) added missing '=' 
 	displayIntro()
-	chosenCave = chooseCave() # 8) fixed call to chooseCave() and changed variable to remain consitant to checkCave(chosenCave)
+	chosenCave = chooseCave() # 8) fixed call to chooseCave() and changed variable to remain consistant to checkCave(chosenCave)
 	checkCave(chosenCave)
     
 	print('Do you want to play again? (yes or no)') 
